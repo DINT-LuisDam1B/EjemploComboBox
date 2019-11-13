@@ -18,7 +18,8 @@
     </Window.Resources>
     
     <StackPanel x:Name="StackPanel_Principal">
-        <ComboBox HorizontalAlignment="Center" ItemsSource="{Binding}" ItemTemplate="{StaticResource plantillaItem}">
+        <ComboBox HorizontalAlignment="Center" ItemsSource="{Binding}" ItemTemplate="{StaticResource plantillaItem}"
+                  Width="200" Height="50">
             
         </ComboBox>
         <TextBlock x:Name="tb_usuarioSeleccionado" Text="El identificador del usuario seleccionado es: "/>
